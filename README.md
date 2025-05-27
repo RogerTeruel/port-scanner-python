@@ -1,7 +1,7 @@
-#Port Scanner in Python
+# Port Scanner in Python
 A simple TCP port scanner built in Python. This tool allows you to scan a user-defined host across a specified range of ports.
 
-#Features
+# Features
 
 - Fast scanning using sockets
 - Custom port range support
