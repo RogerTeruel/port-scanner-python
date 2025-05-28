@@ -1,6 +1,25 @@
 import socket
 import sys
-
+print(r"""
+╔═════════════════════════════════════════════════════════════════════════════════════╗
+║                ██████╗                                                              ║
+║     █████╗     ██╔══██╗     █████╗                                                  ║
+║     █████║     ██████╔╝     █████║                                                  ║
+║     █████║     ██╔██╔╝      █████║                                                  ║
+║     █████║     ██║ ██╗      █████║                                                  ║
+║     █████║     ╚═╝ ╚═╝      █████║                                                  ║
+║     █████║                  █████║     Made for Cybersecurity & Pentesting          ║
+║     █████████████████████████████║     LinkedIn --> www.linkedin.com/in/roger-tm    ║
+║     █████████████████████████████║     GitHub ----> github.com/RogerTeruel          ║
+║     █████╔══════════════════█████║     Email -----> rodhammer.forge@proton.me       ║
+║     █████║   Powered by:    █████║                                                  ║
+║     █████║                  █████║                                                  ║
+║     █████║ RodHammer.forge  █████║                                                  ║
+║     █████║                  █████║                                                  ║
+║     █████║                  █████║                                                  ║
+║     ╚════╝                  ╚════╝                                                  ║
+╚═════════════════════════════════════════════════════════════════════════════════════╝
+""")
 def scan_ports(host, start_port, end_port):
     print(f"\n[+] Escaneando {host} desde el puerto {start_port} hasta {end_port}...\n")
     for port in range(start_port, end_port + 1):
